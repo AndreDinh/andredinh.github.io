@@ -1,0 +1,9 @@
+Origin: AndreDinh Repo
+Label: AndreDinh Repo
+Suite: stable
+Version: 1.0
+Codename: ondray
+Architectures: iphoneos-arm
+Components: main
+Description: Andre Repo
+MD5Sum:
