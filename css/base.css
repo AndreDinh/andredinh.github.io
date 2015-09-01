@@ -475,7 +475,7 @@ th {
     text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
   }
   header{
-    height: 6.250em;
+    height: 3.250em;
     background-color: #F0F5F9;
   }
   h1{
@@ -494,9 +494,15 @@ th {
     background-color: #52616B;
   }
   a{
+    border: solid black 0.250em;
+    padding: 0.250em;
+    text-decoration: none;
     font-size: 1.250em;
   }
   a:visited{
+    color: black;
+  }
+  a:link{
     color: black;
   }
   p{
