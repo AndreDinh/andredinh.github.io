@@ -484,7 +484,6 @@ th {
   }
   h2{
     font-size: 1.618em;
-    /*text-align: center;*/
     margin: 0.125em;
     padding: 0.625em;
   }
@@ -523,7 +522,6 @@ th {
     margin-right: auto;
     margin-left: auto;
     width: 24%;
-    /*height: 24%;*/
     border-radius: 50%;
   }
   .main{
