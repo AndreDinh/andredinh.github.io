@@ -425,30 +425,9 @@ th {
 /*custom layout*/
 
 /*fonts*/
-@font-face {
-    font-family: 'LatoRegular';
-    src: url('fonts/lato-regular.eot');
-    src: url('fonts/lato-regular.eot') format('embedded-opentype'),
-         url('fonts/lato-regular.woff2') format('woff2'),
-         url('fonts/lato-regular.woff') format('woff'),
-         url('fonts/lato-regular.ttf') format('truetype'),
-         url('fonts/lato-regular.svg#LatoRegular') format('svg');
-}
-@font-face {
-    font-family: 'LatoBoldBold';
-    src: url('fonts/lato-bold.eot');
-    src: url('fonts/lato-bold.eot') format('embedded-opentype'),
-         url('fonts/lato-bold.woff2') format('woff2'),
-         url('fonts/lato-bold.woff') format('woff'),
-         url('fonts/lato-bold.ttf') format('truetype'),
-         url('fonts/lato-bold.svg#LatoBoldBold') format('svg');
-}
-@font-face{
-    font-family: 'Roboto';
-     src: url('fonts/RobotoMono-Regular.ttf') format('truetype');
-     font-weight: normal;
-     font-style: normal;
-   }
+@import url(https://fonts.googleapis.com/css?family=EB+EB Garamond );
+
+
 /*Using Iconmoon fonts*/
 @font-face {
   font-family: 'icomoon';
@@ -475,77 +454,94 @@ th {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home:before {
+.icon-resume::after {
   content: "\e900";
 }
-.icon-keyboard:before {
+.icon-github::after {
   content: "\e955";
 }
-.icon-arrow-up:before {
+.icon-mail::after {
   content: "\ea32";
 }
-.icon-github:before {
-  content: "\eab1";
-}
-
 
 /*main styles*/
-header{
-  height: 100px;
-  background-color: #E8F1FF;
+
+/*phones*/
+@media(min-width: 18em){
+  html{
+    font-family: 'EB Garamond';
+    letter-spacing: 0.1em;
+    padding-top: 0.1em;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+  }
+  header{
+    height: 6.250em;
+    background-color: #F0F5F9;
+  }
+  h1{
+    font-size: 2.618em;
+    padding: 0.313em;
+  }
+  h2{
+    font-size: 1.618em;
+    /*text-align: center;*/
+    margin: 0.125em;
+    padding: 0.625em;
+  }
+  nav{
+    margin: 2.500em;
+  }
+  body{
+    background-color: #52616B;
+  }
+  a{
+    font-size: 1.250em;
+  }
+  a:visited{
+    color: black;
+  }
+  p{
+    text-decoration: none;
+    font-size: 1.750em;
+    margin: 0 3.125em;
+  }
+  article{
+    color: #C9D6DF;
+  }
+  fieldset{
+    border: 0;
+  }
+  input{
+    border-radius: 0.625em;
+  }
+  .copyRight{
+    font-size:  0.625em;
+    color: gray;
+  }
+  img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 24%;
+    /*height: 24%;*/
+    border-radius: 50%;
+  }
+  .main{
+    text-align: center;
+    padding-top: 2em;
+  }
+  .contacts{
+    display: inline;
+    text-align: center;
+  }
 }
-h1{
-  font-size: 2.618em;
-  padding: 5px;
+/*tablets*/
+@media(min-width: 48em){
+
 }
-h2{
-  font-size: 1.618em;
-  font-family: 'LatoBoldBold';
-  /*text-align: center;*/
-  margin: 2px;
-  padding: 10px;
-}
-nav{
-  font-family: 'LatoRegular';
-  margin: 40px;
-}
-body{
-  background-color: #BAC1CC;
-}
-a{
-  font-size: 20px;
-}
-a:visited{
-  color: black;
-}
-p{
-  font-family: 'Roboto';
-  text-decoration: none;
-  font-size: 25px;
-  margin: 0 50px;
-}
-article{
-  color: #4C4E4E;
-  height: 350px;
-}
-fieldset{
-  border: 0;
-}
-input{
-  border-radius: 10px;
-}
-.copyRight{
-  font-size: 10px;
-  color: gray;
-}
-img{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 24%;
-  /*height: 24%;*/
-  border-radius: 50%;
-}
-.main{
-  text-align: center;
+/*Desktop*/
+@media(min-width: 75em){
+  article{
+    padding: 12em 0;
+  }
 }

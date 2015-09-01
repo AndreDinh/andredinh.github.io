@@ -1,13 +1,13 @@
 /*phones*/
-@media(min-width: 300px){
+@media(min-width: 18){
 
 }
 /*tablets*/
-@media(min-width: 768px){
+@media(min-width: 48em){
 
 }
 /*Desktop*/
-@media(min-width: 1200px){
+@media(min-width: 75em){
 
 }
 .container{
@@ -18,25 +18,20 @@
 }
 /*header*/
 .nav__link{
-  padding: 15px;
+  padding: 0.938em;
   text-decoration: none;
 }
-
 
 /*articles*/
 
 .article__header--paragraph{
-  font-size: 30px;
+  font-size: 1.875;
 }
 .article__header--form{
   display: block;
 }
-.article__header--img{
-  height: 350px;
-}
-
 
 article:nth-child(odd){
-  background-color: #9CC4FF;
+  background-color: #1E2022;
   /*opacity: 0.5;*/
 }
