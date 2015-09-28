@@ -491,7 +491,7 @@ th {
     margin: 2.500em;
   }
   body{
-    background-color: #52616B;
+    background-color: black;
   }
   a{
     border: solid black 0.250em;
@@ -509,10 +509,11 @@ th {
     text-decoration: none;
     font-size: 1.750em;
     margin: 0 3.125em;
+    color: white;
   }
-  article{
+  /*article{
     color: #C9D6DF;
-  }
+  }*/
   fieldset{
     border: 0;
   }
@@ -523,12 +524,11 @@ th {
     font-size:  0.625em;
     color: gray;
   }
-  img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 24%;
-    border-radius: 50%;
+  img:hover{
+    opacity:0.5;
+    background:black;
+    width: 472px;
+    height: 263px;
   }
   .main{
     text-align: center;
@@ -538,7 +538,64 @@ th {
     display: inline;
     text-align: center;
   }
+  .panel {
+		height: 100%;
+		width: 100%;
+	}
+	.panel.green {
+		margin-bottom: 400px
+	}
+  .headerStyle:before {
+    content: "";
+    border-top: 1px solid white;
+    position: absolute;
+    width: 300%;
+    top: 35%;
+    left: -100%;
+    z-index: -999;
+  }
+
+  .headerStyle:after {
+    content: "";
+    border-bottom: 1px solid white;
+    position: absolute;
+    width: 300%;
+    bottom: 35%;
+    left: -100%;
+    z-index: -999;
+  }
+  #container {
+    margin: 0 auto;
+    max-width: 520px;
+    text-align: center;
+  }
+  #container h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0.3125em 0;
+    color:white;
+    background-color: #111111;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+  }
+  #macBook{
+    width: 50%;
+    height: 50%;
+  }
+  #macBook:hover{
+    background: clear;
+  }
+  img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 472px;
+    height: 263px;
+  }
+
 }
+
 /*tablets*/
 @media(min-width: 48em){
 

@@ -6,33 +6,43 @@
     <title>Andre Dinh</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/base.css" type="text/css" rel="stylesheet" />
-    <link href="css/layout.css" type="text/css" rel="stylesheet" />
-    <link href="css/module.css" type="text/css" rel="stylesheet" />
-    <link href="css/states.css" type="text/css" rel="stylesheet" />
+    <link href="css/base.css" type="text/css" rel="stylesheet"/>
+    <link href="css/layout.css" type="text/css" rel="stylesheet"/>
+    <link href="css/module.css" type="text/css" rel="stylesheet"/>
+    <link href="css/states.css" type="text/css" rel="stylesheet"/>
   </head>
   <body class="section group">
     <main>
-      <header class="container ">
-      </header>
+      <!-- <header class="container ">
+      </header> -->
       <article class="article__header--paragraph main col span_12_of_12">
-        <h2>Andre Dinh</h2>
+        <div id="container" >
+          <h2 class="headerStyle">Andre Dinh</h2>
+        </div>
         <p>
-          Front-End Developer and Web Desiginer
+          Front-End Developer
         </p>
+        <p>
+          Web Desiginer
+        </p>
+        <!-- <img id="macBook" class="nohover" src="macbook.png" alt="" /> -->
       </article>
       <section>
         <article class="article__header--form col span_12_of_12 ">
           <section class=" span_12_of_12">
-            <h2>About me</h2>
+            <div id="container" >
+              <h2 class="headerStyle">About me</h2>
+            </div>
             <p>
-              I am a Front-End Developer. I have a background of Computer Science and design, that inspire me to go in the field of website design. My skills are mainly focus in HTML,CSS and JavaScript. With that in mind, I use Sass for modular and repsonisve  CSS. I also know a bit of Express.js and Node.js. I try to focus on mainly on Angular.js as my framework of choice.
+I built my first website eight years ago using HTML and XHTML, studied computer science while getting my AA, and recently dove into and graduated from a front-end development course at Code Fellows. I always aim to create responsive web design, reusable code, and a great user experience.
             </p>
           </section>
         </article>
       </section>
       <article class= "contacts col span_12_of_12">
-          <h2>Contact me</h2>
+        <div id="container" >
+          <h2 class="headerStyle">Contact me</h2>
+        </div>
             <div class="col span_4_of_12">
               <a href="dinh.andre@yahoo.com">Email</a>
             </div>
@@ -45,23 +55,40 @@
       </article>
       <article class="col span_12_of_12">
         <section class="article__header--paragraph">
-          <h2>Projects</h2>
+          <div id="container" >
+            <h2 class="headerStyle">Projects</h2>
+          </div>
           <div class="col span_6_of_12">
             <h3>Turtle Chat</h3>
+            <a href="https://turtle-squad.herokuapp.com/"><img src="turtlechat.png" alt=""/></a>
               <p>
-                Messaging web application base on HTML,CSS,JavaScript, and Ajax. First of it's kind without using Angualr.js and React.js. Made C.U.R.D hosting to the server and Front-End CSS.
+                The first messaging app coded in HTML, CSS, and jQuery. React.js.Made the C.U.R.D hosting to the server and Front End.
               </p>
+              <ul>
+                <li>Developed in a week on a team of 3 (two front-end, one back-end)</li>
+                <li>Personally responsible for connecting the back- and front-end, developed the C.U.R.D
+                hosting to the server, and created a refresh system that deletes messages every 12 seconds</li>
+              </ul>
           </div>
         </section>
         <section class="article__header--paragraph">
           <div class="col span_6_of_12">
             <h3>Event-Funder</h3>
+            <a href="github.com/EventFunder/event-funder"><img src="eventfunder.png" alt="" /></a>
               <p>
-                EventFunder is a web application that allows users to post an event with an approximate total cost. The host can then send a link out to the event attendees where they will commit to attending the event along with committing to paying their share of the cost. The goal of EventFunder is to alleviate the financial burden of hosting an event with friends and family.
+                A web application that allows users to post an event and its approximate total cost. The host can then send a link to the attendees, allowing them to share the cost.
               </p>
+              <ul>
+                <li>Developed in 4 days on a team of 3 (one front-end, two back-end)</li>
+                <li>Personally responsible for all front-end HTML, CSS, and JavaScript; also used Angular.js to
+                ￼￼interact with back-end servers</li>
+              </ul>
           </div>
         </section>
       </article>
     </main>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src"https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script type="text/javascript" src="animations.js"></script>
   </body>
 </html>

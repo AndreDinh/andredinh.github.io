@@ -1,0 +1,24 @@
+{
+  "name": "andredinh.github.io",
+  "version": "0.0.1",
+  "homepage": "andredinh.github.io",
+  "authors": [
+    "Andre Dinh <dinh.andre@yahoo.com>"
+  ],
+  "description": "Personal website",
+  "main": "index.html",
+  "keywords": [
+    "job",
+    "blog",
+    "andre",
+    "dinh"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -32,6 +32,6 @@
 }
 
 article:nth-child(odd){
-  background-color: #1E2022;
+  /*background-color: #1E2022;*/
   /*opacity: 0.5;*/
 }
